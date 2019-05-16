@@ -41,7 +41,7 @@ class TicketLottery:
 
     def find_name(self, name):
         if self.entries.get(name) is not None:
-            print(name)
+            print(name, "is in the entry list")
         else:
             print(name, "is not in the entry list")
         self.ticket_menu()
